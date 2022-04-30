@@ -1,6 +1,6 @@
 # DSM - Disasters on Social Media
 
-Este projeto tem como objetivo estudar a aplicação de técnicas de NLP para predição de alertas relevantes de desastres ocorridos. O dataset em uso é o _Disasters on Social Media_, que possui mais de 10 mil tweets selecionados a partir de buscas feitas no tweeter.
+Este projeto tem como objetivo estudar a aplicação de técnicas de NLP para predição de alertas relevantes de desastres ocorridos. O dataset em uso é o _Disasters on Social Media_, que possui mais de 10 mil tweets selecionados a partir de buscas feitas no twitter.
 
 ### Pré-requisitos:
 

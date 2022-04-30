@@ -1,0 +1,15 @@
+
+# Venv dir
+.venv
+
+# Data dir
+data/raw/*
+data/processed/*
+!data/**/.gitkeep
+
+# Poetry lock
+poetry.lock
+
+# Cache
+__pycache__
+*.pyc

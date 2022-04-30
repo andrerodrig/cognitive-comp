@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "dsm"
+version = "0.1.0"
+description = "DSM - Disasters on social media"
+authors = ["André Rodrigues <andrelmarques11@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+invoke = "^1.7.0"
+kaggle = "^1.5.12"
+numpy = "^1.22.3"
+pandas = "^1.4.2"
+matplotlib = "^3.5.1"
+scikit-learn = "^1.0.2"
+torch = "^1.11.0"
+torchaudio = "^0.11.0"
+torchvision = "^0.12.0"
+nltk = "^3.7"
+chardet = "^4.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+ipykernel = "^6.13.0"
+ipdb = "^0.13.9"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

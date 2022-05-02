@@ -8,20 +8,20 @@ sentences =  sent_tokenize(scene_one)
 match = re.search("coconuts", scene_one)
 
 # Print the start and end indexes of match
-# print(match.start(), match.end())
-# print (match)
+print("1: ", match)
+print("2: ", match.start(), match.end())
 
 # Write a regular expression to search for anything in square brackets: pattern1
-print(scene_one, '\n')
-# pattern1 = re.search(r".*\[.*\].*", scene_one)
-# print(pattern1)
+pattern1 = re.findall(r"(\[.*?\])", scene_one)
+print("3: ", pattern1)
 
 # Use re.search to find the first text in square brackets
-
-pattern2 = re.match(r"(^.*\[.*\].*)", scene_one)
-print(pattern2)
+pattern2 = re.search(r"\[[\S]+\]", scene_one)
+print("4: ", pattern2)
 
 
 # Find the script notation at the beginning of the fourth sentence and print it
-pattern2 = r"___"
-# print(____)
+pattern3 = r"^.*:"
+print("5: ", re.search(pattern3, scene_one))
+
+print("6: ", re.search(pattern3, sentences[3]))

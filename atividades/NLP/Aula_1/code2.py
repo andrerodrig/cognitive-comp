@@ -14,9 +14,5 @@ word_list = [word_tokenize(sentence) for sentence in sentences]
 unique_tokens = set([word for words in word_list for word in words])
 
 # Print the unique tokens result
-# print(scene_one, '\n')
-# print(sentences, '\n')
-# print(tokenized_sent, '\n')
-
 print(unique_tokens)
 print(len(unique_tokens))

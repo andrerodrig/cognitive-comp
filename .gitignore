@@ -3,9 +3,9 @@
 .venv
 
 # Data dir
-data/raw/*
-data/processed/*
-!data/**/.gitkeep
+dsm/data/raw/*
+dsm/data/processed/*
+dsm/!data/**/.gitkeep
 
 # Poetry lock
 poetry.lock

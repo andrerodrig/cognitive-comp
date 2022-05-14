@@ -4,6 +4,9 @@ from pathlib import Path
 from zipfile import ZipFile
 from invoke import task
 
+from dsm.nlp import get_nltk_models
+
+
 def create_datadirs(path: Union[Path, str]) -> None:
     path_ = Path(path) 
     if not path_.is_dir():
@@ -34,3 +37,9 @@ def get_data(c):
         download_data(data_url, filename=filepath)
         
     print("Done!")
+
+
+@task(iterable='model')
+def get_model(c, model):
+    for m in model:
+        get_nltk_models(m)

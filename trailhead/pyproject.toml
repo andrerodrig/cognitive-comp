@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "dsm"
+name = "trailhead"
 version = "0.1.0"
-description = "DSM - Disasters on social media"
+description = "My Trailhead - NLP"
 authors = ["André Rodrigues <andrelmarques11@gmail.com>"]
 
 [tool.poetry.dependencies]

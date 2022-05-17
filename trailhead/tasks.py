@@ -4,7 +4,7 @@ from pathlib import Path
 from zipfile import ZipFile
 from invoke import task
 
-from dsm.nlp import get_nltk_models
+from trailhead.nlp import get_nltk_models
 
 
 def create_datadirs(path: Union[Path, str]) -> None:

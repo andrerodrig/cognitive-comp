@@ -1,4 +1,4 @@
-from dsm import __version__
+from trailhead import __version__
 
 
 def test_version():
